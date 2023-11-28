@@ -1,15 +1,12 @@
-import { StatusBar } from "expo-status-bar";
-import { Button, StyleSheet, Text, TextInput, View } from "react-native";
+import React from "react";
+import { Text, View } from "react-native";
+import Flex from "./src/flex";
+import Flex1 from "./src/flext-1";
+import Flex2 from "./src/flext-2";
 
 export default function App() {
   return (
-    <View >
-      <StatusBar style="auto"/>
-      <Text>hello world!</Text>
-    </View>
+    // <Flex/>
+    <Flex2/>
   );
 }
-
-const styles = StyleSheet.create({
-
-});
